@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Página HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        main {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        h2 {
+            color: #2563eb;
+        }
+
+        img {
+            width: 400px;
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .botao:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha Primeira Página HTML</h1>
+        <p>Exemplo feito no Visual Studio Code</p>
+    </header>
+
+    <main>
+
+        <h2>Sobre a página</h2>
+
+        <p>
+            Esta é uma página criada usando HTML e CSS.
+            Ela possui imagem, tabela, lista, links e botão.
+        </p>
+
+        <h2>Imagem</h2>
+
+        <img 
+            src="https://picsum.photos/800/400" 
+            alt="Imagem de exemplo"
+        >
+
+        <h2>Lista de tecnologias</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Code</li>
+        </ul>
+
+        <h2>Tabela de alunos</h2>
+
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Nota</th>
+            </tr>
+
+            <tr>
+                <td>João</td>
+                <td>16</td>
+                <td>9,0</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>17</td>
+                <td>8,5</td>
+            </tr>
+
+            <tr>
+                <td>Pedro</td>
+                <td>16</td>
+                <td>10,0</td>
+            </tr>
+        </table>
+
+        <h2>Link</h2>
+
+        <p>
+            Acesse o 
+            <a href="https://www.google.com" target="_blank">
+                Google
+            </a>.
+        </p>
+
+        <a href="#" class="botao">
+            Clique aqui
+        </a>
+
+    </main>
+
+    <footer>
+        <p>© 2026 - Minha Página HTML</p>
+    </footer>
+
+</body>
+</html>
